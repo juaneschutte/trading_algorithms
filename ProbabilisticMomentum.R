@@ -95,7 +95,9 @@ tail(models$Probabilistic$equity)
 tail(models$Probabilistic[["trade.summary"]])
 tail(momentum.p,20)
 
-
+######################
+## Strategy details ##
+######################
 # Buy on leaders' weakness, a breakout after consolidation and on greater than 
 # 10% drawdown of strategy. Sell after big leader move cause of consolidation and sell if strategy says so, ie stick to IT!!
 # watch for short and medium term correlation moving toward -1 as sign of poor 
